@@ -1,7 +1,7 @@
 from collections import defaultdict
 import torch
 
-from trainer.callback import Callback
+from PyTorchTrainer.callback import Callback
 
 def accuracy(out, y_true):
     if out.dim() > 1:

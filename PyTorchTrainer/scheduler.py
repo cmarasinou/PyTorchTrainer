@@ -1,7 +1,7 @@
 from collections import defaultdict
 import math
 
-from trainer.callback import Callback
+from PyTorchTrainer.callback import Callback
 
 class ParameterUpdater:
 

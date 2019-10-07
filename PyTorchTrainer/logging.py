@@ -19,8 +19,8 @@ import numpy as np
 import os
 from tensorboardX import SummaryWriter
 
-from trainer.callback import Callback
-from trainer.train import save
+from PyTorchTrainer.callback import Callback
+from PyTorchTrainer.train import save
 
 def merge_dicts(ds):
     merged = OrderedDict()

@@ -1,2 +1,5 @@
-./examples/data/
-./examples/
+/examples/data/
+/examples/runs/
+/PyTorchTrainer/__pycache__/
+/examples/.ipynb_checkpoints/
+/examples/__pycache__/

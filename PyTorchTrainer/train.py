@@ -3,7 +3,7 @@ from collections import OrderedDict
 import torch
 from torch.nn import functional as F
 
-from trainer.callback import Callback
+from PyTorchTrainer.callback import Callback
 
 default_device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
